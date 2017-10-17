@@ -20,8 +20,8 @@ b += "    <tr>\n"
 a.times do |i|
   b = b + "      <td> #{i+1} </td>\n"
 end
-b = b + "    </tr>\n"
-b = b + "  </tbody>\n"
-b = b + "</table>\n"
+b += "    </tr>\n"
+b += "  </tbody>\n"
+b += "</table>\n"
 
 puts b
